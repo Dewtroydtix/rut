@@ -1,0 +1,31 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+:root { --deep: #14263D; --green: #0B826B; }
+html, body, [class*="css"], [data-testid="stApp"] { font-family: 'DM Sans', sans-serif; }
+h1, h2, h3 { font-family: 'Outfit', sans-serif !important; letter-spacing:-.025em; }
+[data-testid="stApp"] { background: #F7F9FC; }
+[data-testid="stSidebar"] { background: #F0F4F7; }
+.block-container { padding-top: 2rem; max-width: 1190px; }
+.hero {
+  padding: 27px 31px; color: white; border-radius: 20px;
+  background: linear-gradient(115deg, #14263D 0%, #164D5B 60%, #0B826B 100%);
+  box-shadow: 0px 14px 35px rgba(20, 38, 61, .12);
+  margin-bottom: 24px;
+}
+.hero h1 { font-size: 2.5rem; margin: 0 0 9px; color: white !important; }
+.hero p { margin: 0; color: #D9F6F1; font-size: 1.06rem; }
+.eyebrow { letter-spacing: .16em; color: #B7ECDD; font-size:.76rem; font-weight: 700; margin-bottom: 9px; }
+.info-card {
+  border: 1px solid #DDE6EE; border-radius: 14px; padding: 18px 19px;
+  background: #FFFFFF; min-height: 126px; margin-bottom: 10px;
+}
+.info-card b { color: #14263D; font-size: 1.1rem; }
+.info-card p { font-size: .9rem; color: #55687B; margin: 7px 0 0; }
+.muted { color: #586B80; font-size: .87rem; }
+div[data-testid="stMetric"] { background: white; border: 1px solid #E1E9F0;
+  border-radius: 14px; padding: 15px 17px; }
+div.stButton > button[kind="primary"] {
+ background: #0B826B; border-color: #0B826B;
+}
+.small-note { background: #E7F3EF; border-left: 4px solid #0B826B; border-radius: 8px; padding: 14px 18px; color: #183F38; }
+</style>

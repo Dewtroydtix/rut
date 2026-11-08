@@ -1,0 +1,22 @@
+GEORUTA-IA - GUÍA RÁPIDA
+EXPOMATEMÁTICA JUANPABLINA 2026
+
+1. Instala Python 3.10 o superior si aún no lo tienes.
+2. Windows: ejecuta el archivo ejecutar_windows.bat.
+   macOS/Linux: abre una terminal en la carpeta y ejecuta:
+      bash ejecutar_linux_mac.sh
+3. También puedes ejecutar manualmente:
+      python -m pip install -r requirements.txt
+      streamlit run app.py
+4. Abre en el navegador la dirección que mostrará la terminal
+   (normalmente http://localhost:8501).
+5. Ve a LABORATORIO IA -> Entrenar IA -> Probar la ruta aprendida.
+6. Abre SIMULACIÓN -> Reproducir recorrido.
+7. Abre EXPERIMENTOS -> Ejecutar experimento completo.
+8. En RESULTADOS compara los datos reales con los del proyecto.
+
+IMPORTANTE: Las pruebas y los gráficos reales no están prefijados.
+El valor 100 % del PDF no tiene por qué obtenerse en cada ejecución.
+La ruta matemática de referencia tiene 9 movimientos.
+
+Para más información, consulta README.md
